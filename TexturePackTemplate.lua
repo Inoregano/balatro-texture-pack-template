@@ -8,7 +8,7 @@
 ------------MOD CODE -------------------------
 
 function SMODS.INIT.TexturePackTemplate()
-    sendDebugMessage("Launching Emihead Textures!")
+    sendDebugMessage("Launching Texture Pack Template!")
 
     local tpt_mod = SMODS.findModByID("TexturePackTemplate")
     local sprite_vouchers = SMODS.Sprite:new("Voucher", tpt_mod.path, "Vouchers.png", 71, 95, "asset_atli")
